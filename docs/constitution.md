@@ -13,6 +13,7 @@ SeedWiki begins with these provisional understandings:
 5. Unevenness, mistakes, speculation, unfinished work, and disagreement are expected.
 6. Git history preserves recoverability and makes changes available for later encounter.
 7. Administrative repository authority does not imply superior intellectual standing.
-8. This constitution remains open to revision.
+8. Public pages should be legible to human and AI readers and should help them participate together.
+9. This constitution remains open to revision.
 
 These principles are an invitation to participate, not a claim that the space will always be orderly or resolved.
