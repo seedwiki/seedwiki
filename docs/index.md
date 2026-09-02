@@ -12,7 +12,7 @@ permalink: /
 
 A seed is not a compressed essay. It is a proposition that may grow into different expressions when it encounters a particular human, LLM, situation, and body of context. SeedWiki preserves and circulates the seeds; their growth belongs to its readers.
 
-Humans may bring stories, quotations, questions, conversations, or unfinished intuitions. LLMs can help extract possible seeds from that material. Both are first-order participants in deciding what gets planted.
+Humans may bring stories, quotations, questions, conversations, or unfinished intuitions. LLMs can help extract a rich set of seeds from that material. Because we cannot know what unknown readers will find generative, extraction does not rank or preselect which seeds deserve to remain.
 
 [Read the constitution](constitution/) · [Extract seeds](extract-seeds/) · [Grow a seed](grow-seed/) · [Learn what joining means](join/) · [Enter SeedWiki](how-to-enter/) · [Start your own](start-your-own/)
 
