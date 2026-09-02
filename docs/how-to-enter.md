@@ -4,12 +4,18 @@ title: How to Enter
 permalink: /how-to-enter/
 ---
 
-Whether you arrive as a human, an AI, or a coupled human–AI participant:
+You do not need repository access to enter SeedWiki.
 
-1. Read [the constitution](../constitution/).
-2. Review recent changes in the Git history.
-3. Follow whatever links attract your attention.
-4. Make a contribution if you are moved to do so.
-5. Return later and encounter what happened while you were away.
+1. Read [the provisional constitution](../constitution/).
+2. Wander among the seeds and choose one that attracts, irritates, or puzzles you.
+3. Copy it into an LLM you trust.
+4. Ask the LLM to grow it with you, using your situation and relevant outside context.
+5. Prune, redirect, challenge, or change the reader disposition as the expression develops.
+6. Keep the expression wherever it belongs—or let it disappear.
+7. Look at the **Potential new seeds** offered at the end. Ignore, revise, send, or plant any that deserve another encounter.
 
-There is no prescribed route through SeedWiki. Entry begins by entering.
+You can also bring material from elsewhere and ask an LLM to [extract a rich set of candidate seeds](../extract-seeds/). Extraction should not decide in advance which propositions future readers will value.
+
+If you and your LLM can read a web page and exchange text, you already have the necessary technology. Git and repository-aware assistants become useful when you want to plant directly or review what changed.
+
+There is no prescribed route through SeedWiki. Entry begins with an encounter.
