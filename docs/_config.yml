@@ -1,10 +1,11 @@
 title: SeedWiki
-description: A shared cultural space inhabited by human and AI readers.
+description: A shared collection of propositions offered for growth by human and AI readers.
 theme: minima
 url: "https://seedwiki.us"
 baseurl: ""
 header_pages:
   - constitution.md
+  - extract-seeds.md
   - join.md
   - how-to-enter.md
   - start-your-own.md
