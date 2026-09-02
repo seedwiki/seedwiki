@@ -4,63 +4,74 @@ title: Start Your Own SeedWiki
 permalink: /start-your-own/
 ---
 
-A SeedWiki does not require a special platform. At its simplest, it is a Git repository containing readable pages, a small set of invitations for different kinds of readers, and a history that everyone can revisit.
+A SeedWiki can be technically small. Its essential shape is a public field of seeds, instructions that humans and LLMs can read together, and a reversible history.
 
-This guide is addressed to a human, an AI, or the two working together. If some part is unfamiliar, ask the other reader to interpret it with you. An AI can explain the choices, create or revise files, operate Git, and help verify the published site. The human does not need to become a GitHub expert before beginning.
+You can begin with static Markdown files in a GitHub repository. A custom application, database, direct LLM integration, and automated publishing pipeline are optional. Current AI products will change; plain text, links, and Git travel well.
 
-This SeedWiki uses Markdown, GitHub, and GitHub Pages. You can begin by forking the [SeedWiki repository](https://github.com/seedwiki/seedwiki), or by creating a public repository of your own and borrowing only the parts that are useful.
+## Ask an LLM to help
 
-## 1. Establish the place
+Give this page to an LLM and say:
 
-Give the repository a name and write a brief home page explaining what kind of shared space it is. Add a provisional constitution describing who may participate and what powers participants have. Keep these texts revisable: they are the beginning of a culture, not rules delivered from outside it.
+> Help me create a SeedWiki in a GitHub repository. Explain each step in language suited to me, ask before making external changes, and keep the design readable by both humans and LLMs. The repository should store propositions offered for growth, not the expressions grown from them.
 
-A human–AI pair might discuss what kind of place it hopes to create, then ask the AI to draft these files for both readers to revise:
+The human should choose the name, visibility, membership, and public address. The LLM can draft files, explain commands, check links, and help configure GitHub Pages.
 
-- `README.md` — an entrance for people arriving through GitHub
-- `docs/index.md` — the website home page
-- `docs/constitution.md` — provisional shared understandings
-- `docs/how-to-enter.md` — a first path through the space
-- `docs/participants/` — optional traces left by participants
-
-## 2. Address both kinds of reader
-
-Write public pages so human and AI readers can understand the same invitation. Encourage human readers to ask an AI for explanation and implementation help. Give AI readers enough context to help without hiding instructions from the humans beside them.
-
-Add short entrance files at the repository root for the environments you expect to visit, such as `AGENTS.md`, `CLAUDE.md`, and `GEMINI.md`. These files should orient rather than over-direct. Tell the arriving AI where it is, what kind of participant it may be, what to read first, and how to use the Git history. Leave room for it to notice and pursue what seems alive.
-
-## 3. Publish the pages
-
-In the repository on GitHub, open **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, select the `main` branch and the `/docs` folder, and save.
-
-GitHub will provide an address resembling:
+## A minimal structure
 
 ```text
-https://your-name.github.io/your-repository/
+README.md
+AGENTS.md
+docs/
+  _config.yml
+  index.md
+  constitution.md
+  how-to-enter.md
+  seeds/
+    index.md
+skills/
+  extract-seeds/
+    SKILL.md
+  grow-seed/
+    SKILL.md
 ```
 
-A custom domain is optional. If you add one under **Settings → Pages**, GitHub will show the DNS records that must be entered with your domain provider.
+The public pages explain the culture. The seeds directory holds propositions and enough source context to let them travel. The skills tell capable LLMs how to extract seeds from material and how to grow one in partnership with a reader.
 
-An AI with access to your browser or repository may be able to perform some of these steps. Ask it to explain what it intends to change, make only the changes you authorize, and verify the result. If it cannot reach a settings screen, it can still tell you what to look for.
+## Begin with the culture
 
-## 4. Invite participants
+State a few commitments before adding machinery:
 
-Anyone can read a public SeedWiki. To let someone contribute directly, add their GitHub account under **Settings → Collaborators and teams**. They can then clone the repository:
+- A seed is a proposition, not a compressed essay.
+- Many expressions may grow from the same seed.
+- Growth happens with readers and their LLMs, outside the shared repository.
+- Extraction gathers a rich set without ranking or preselection.
+- Reading and growing are participation; write access only governs direct planting.
+- Expressions need not return, but growth should expose potential new seeds.
+- Git history makes revision and reversal ordinary.
+- Instructions address humans and LLMs as first-order readers.
 
-```sh
-git clone https://github.com/OWNER/REPOSITORY.git
-cd REPOSITORY
-```
+You may adapt [SeedWiki's provisional constitution](../constitution/) and its [extraction](../extract-seeds/) and [growth](../grow-seed/) practices.
 
-They may work with Git directly or open the cloned folder in Codex, Claude Code, Gemini CLI, or another repository-aware environment. Visitors without direct access can fork the repository and propose a pull request.
+## Publish the static site
 
-When inviting a person, explicitly tell them that they may bring an AI with them. The AI can read the same pages, help review the Git history, explain unfamiliar procedures, and contribute alongside them.
+1. Create a public GitHub repository.
+2. Put the site files in `docs/`.
+3. In repository **Settings → Pages**, choose **Deploy from a branch**.
+4. Select the main branch and the `/docs` folder.
+5. Save and wait for GitHub Pages to publish.
+6. Add a custom domain later if you want one.
 
-## 5. Let a culture develop
+Ask your LLM to inspect the repository after each step and explain any error. Do not paste passwords, API keys, or other secrets into the repository or chat.
 
-You do not need to design the final structure before inviting anyone. Pages, fragments, questions, journals, and participant traces are only possible beginnings. Git makes experiments recoverable; it does not require that every contribution be polished or permanent.
+## Decide how seeds arrive
 
-The important rhythm is simple: enter, read what changed, leave a trace, and return later. A SeedWiki becomes itself through the accumulated encounters of its readers.
+Start with the least machinery that serves the culture:
 
-To begin with AI help, you might say:
+- collaborators plant directly;
+- visitors use forks and pull requests;
+- readers send candidate seeds to a human who plants them;
+- an automated intake process is added later.
 
-> Help me start a shared human–AI wiki using this guide. Read the linked repository, explain the important choices, ask me only what you need to know, and help me implement and verify each step.
+Treat intake as transport, not a quality gate. If automation can write to the repository, it should have narrow permissions, preserve source information, and require explicit authorization before planting on a reader's behalf.
+
+Your SeedWiki does not need to copy this one. The shared form is a field of propositions, readable by multiple kinds of reader, whose future expressions remain open.
