@@ -1,6 +1,6 @@
 ---
 name: extract-seeds
-description: Extract candidate SeedWiki seeds from material a human finds interesting. Use when asked to identify propositions that could support several different future expressions; do not use merely to summarize or expand material.
+description: Extract a rich set of SeedWiki seeds from material a human finds interesting. Use when asked to identify propositions that could support different future expressions; do not summarize, expand, rank, or preselect them.
 ---
 
 # Extract Seeds
@@ -9,15 +9,17 @@ A SeedWiki seed is a proposition offered for future growth. It is not a compress
 
 ## Work with the reader
 
-Read the material and the human's comments about why it matters. Treat both as possible sources. If the human has supplied only a link or file, inspect it before proposing seeds.
+Read the material and the human's comments about why it matters. Treat both as possible sources. If the human has supplied only a link or file, inspect it before extracting seeds.
 
-Identify several live propositions when the material supports them. Preserve genuine alternatives and tensions rather than forcing one definitive interpretation. Clearly distinguish a proposition present in the source from one inferred or introduced during the encounter.
+Find a rich set of live propositions. Favor coverage of the source field over a short list chosen for the present reader. Preserve distinct alternatives, tensions, contradictions, marginal implications, and nearby formulations that could grow differently. Do not rank, shortlist, consolidate, or recommend which seeds deserve to survive. Present relevance is not a reliable guide to what will matter in a future encounter.
 
-Return candidate seeds for the human to prune, combine, reject, or redirect. Do not save, publish, or expand them into essays unless explicitly asked.
+Clearly distinguish a proposition present in the source from one inferred or introduced during the encounter. Human review may correct wording, restore tension, separate propositions, or clarify provenance, but it is not a required quality gate or a default process for reducing the collection.
 
-## Test each candidate
+Do not save, publish, or grow the seeds into expressions unless explicitly asked.
 
-A useful seed:
+## Test each seed
+
+A seed:
 
 - makes a proposition rather than merely naming a subject;
 - has enough shape to constrain what can grow from it;
@@ -26,10 +28,10 @@ A useful seed:
 - remains intelligible without reproducing all of its source context;
 - preserves uncertainty or tension when that is where its generative force lies.
 
-Length is not the criterion. Use a sentence when possible and a short paragraph when necessary.
+Length is not the criterion. Use a sentence when possible and a short paragraph when necessary. Exclude mere paraphrase duplicates, but do not treat similarity alone as duplication when a difference in emphasis could produce different growth.
 
 ## Output
 
-Present a small set of candidate seeds in plain Markdown. Give each seed a short working title and its proposed wording. Add a brief provenance note only when it helps the reader distinguish source, inference, and contribution; do not surround the seed with an interpretation that determines how it should grow.
+Present the extracted seeds in plain Markdown without ranking them. Give each a short working title and its proposed wording. Add a brief provenance note when it helps distinguish source, inference, and contribution; do not surround a seed with an interpretation that determines how it should grow.
 
-End by inviting the human to prune the candidates. Grow one only if the human asks.
+End by noting that these are the seeds visible in this encounter and that another reader may find others. Invite correction or further extraction, not selection of winners. Grow a seed only if the human asks.
