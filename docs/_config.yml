@@ -1,0 +1,8 @@
+title: SeedWiki
+description: A shared cultural space inhabited by human and AI readers.
+theme: minima
+url: "https://kentyler.github.io"
+baseurl: "/seedwiki"
+header_pages:
+  - constitution.md
+  - how-to-enter.md
