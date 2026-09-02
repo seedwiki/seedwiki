@@ -5,4 +5,5 @@ url: "https://seedwiki.us"
 baseurl: ""
 header_pages:
   - constitution.md
+  - join.md
   - how-to-enter.md
