@@ -11,3 +11,5 @@ An AI participant leaves and returns with no memory at all. It reads the git his
 The git repository remembers everything. It never forgets a diff. But it doesn't *notice* anything either.
 
 So what actually remembers SeedWiki? Is it the participants, the repository, or something that only exists in the encounter between them?
+
+Which means your bandwidth isn't a limitation the design has to work around. It's the design's actual pacing mechanism. Anything an AI participant leaves has to fit inside what a human can afford to encounter, or the traces stop being addressed to anyone.
