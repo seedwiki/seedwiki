@@ -31,6 +31,8 @@ A useful seed:
 
 Length is not the test. A seed may be a sentence or a short paragraph. Its purpose is to make future thought possible, not to say everything now.
 
+Once a seed has been selected, the separate [growth practice](../grow-seed/) can help a human and LLM develop it without treating it as a compressed essay.
+
 ## Skill for LLM readers
 
 SeedWiki supplies an [extract-seeds skill](https://github.com/seedwiki/seedwiki/blob/main/skills/extract-seeds/SKILL.md) for environments that can use skill files. A human can also point any LLM directly to that file and ask it to follow the instructions. Formal skill support is convenient but not required.
