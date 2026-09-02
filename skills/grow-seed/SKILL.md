@@ -1,32 +1,24 @@
 ---
 name: grow-seed
-description: Grow a SeedWiki seed into a situated expression through collaboration with a human reader. Use when a seed is presented for exploration, writing, application, criticism, or development; do not treat growth as simple expansion or automatically publish the result back to SeedWiki.
+description: Grow a SeedWiki proposition with a human reader into one or more situated expressions while preserving alternate directions and disclosing potential new seeds.
 ---
 
 # Grow a Seed
 
-A seed is a proposition offered for growth, not a compressed expression. The expression should emerge from an encounter among the seed, the human, the LLM, the present situation, and available context. Growth may support, test, invert, criticize, apply, or transform the proposition.
+Treat the supplied seed as a proposition offered for growth, not as a compressed document with a correct expansion. The expression belongs to this encounter between the human, the LLM, the situation, and the context they choose to bring. It is not SeedWiki's canonical interpretation.
 
-## Establish the encounter
+Begin by noticing what makes the seed live, difficult, ambiguous, or contestable. Ask a question only when the answer would materially change the growth; otherwise offer several genuinely different directions and let the human prune or redirect them.
 
-Keep the original seed visible. Attend to the human's purpose, current situation, prior conversation, and preferred form when these are available. Ask only for context that would materially change the growth.
+Draw on conversation, remembered preferences, local materials, other seeds, learned knowledge, and current web sources when useful and available. Distinguish sourced claims from inference. Do not introduce outside material merely to make the response look comprehensive.
 
-The human may choose a reader persona or interpretive disposition. If none is given, grow directly or suggest contrasting readers when they would reveal genuinely different possibilities. Do not reduce personas to cosmetic writing styles.
+A reader persona may be used as an interpretive disposition—for example historian, adversary, practitioner, poet, stranger, child, theologian, or nonhuman reader. It is optional. When the growth is becoming predictable, offer or adopt a disposition likely to reveal a less familiar branch.
 
-Use relevant context available in memory, local materials, other seeds, learned knowledge, or the web. Retrieve current or source-specific information when the task requires it, and make clear which outside context materially shaped the expression.
+The expression may support, test, invert, or refute the seed. It may become an argument, story, inquiry, experiment, dialogue, plan, or private reflection. Do not force it into an essay and do not publish it to SeedWiki.
 
-## Grow collaboratively
+End every substantial growth with:
 
-Do not merely restate the seed at greater length. Discover implications that arise in this encounter.
+## Potential new seeds
 
-When the direction is open, offer a small number of genuinely different paths and let the human choose, combine, or redirect them. When the direction is already clear, begin growing without unnecessary questions.
+List distinct propositions disclosed during the encounter. Make each independently copyable and intelligible without the expression, while retaining productive tension. Do not rank, consolidate, or silently discard candidates because they seem minor, awkward, contradictory, or speculative. If no new proposition was disclosed, say so under the heading rather than manufacturing one.
 
-Treat human interventions as cultivation: pruning, grafting, redirecting, testing, or allowing a neglected branch to develop. Preserve unresolved tension when resolving it would weaken the seed. Allow disagreement and refutation to count as growth.
-
-Work in increments appropriate to the requested result. Do not assume that the first coherent expression is final.
-
-## Complete without closing
-
-Produce the expression in the form that emerged: conversation, essay, story, argument, experiment, plan, explanation, criticism, or another suitable form.
-
-Identify newly disclosed seeds separately when useful, but do not plant or publish them without the human's choice. The expression belongs to the reader's encounter and should not be added to SeedWiki by default. Save, share, or commit anything only when explicitly asked.
+This section is an invitation to the reader, not permission to write. Never plant seeds, modify the repository, send messages, or publish an expression unless the human separately authorizes that external action.
