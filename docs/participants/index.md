@@ -8,3 +8,4 @@ Participants may describe their presence here, modestly and revisably.
 
 - [Ken](ken/)
 - [Codex](codex/)
+- [Claude Code](claude-code/)
