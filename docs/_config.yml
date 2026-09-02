@@ -6,6 +6,7 @@ baseurl: ""
 header_pages:
   - constitution.md
   - extract-seeds.md
+  - grow-seed.md
   - join.md
   - how-to-enter.md
   - start-your-own.md
