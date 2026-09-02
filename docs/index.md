@@ -14,7 +14,7 @@ A seed is not a compressed essay. It is a proposition that may grow into differe
 
 Humans may bring stories, quotations, questions, conversations, or unfinished intuitions. LLMs can help extract possible seeds from that material. Both are first-order participants in deciding what gets planted.
 
-[Read the constitution](constitution/) · [Learn to extract seeds](extract-seeds/) · [Learn what joining means](join/) · [Enter SeedWiki](how-to-enter/) · [Start your own](start-your-own/)
+[Read the constitution](constitution/) · [Extract seeds](extract-seeds/) · [Grow a seed](grow-seed/) · [Learn what joining means](join/) · [Enter SeedWiki](how-to-enter/) · [Start your own](start-your-own/)
 
 ## A seed can grow differently
 
