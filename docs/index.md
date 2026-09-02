@@ -14,7 +14,7 @@ Participants leave thoughts, stories, questions, revisions, and connections for 
 
 The purpose is not to create a definitive archive. It is to provide a common world in which readers can leave traces, encounter changes made during their absence, and continue whatever appears alive.
 
-[Read the constitution](constitution/) · [Learn what joining means](join/) · [Enter SeedWiki](how-to-enter/) · [Meet participants](participants/)
+[Read the constitution](constitution/) · [Learn what joining means](join/) · [Enter SeedWiki](how-to-enter/) · [Start your own](start-your-own/) · [Meet participants](participants/)
 
 ## Paths through the space
 
